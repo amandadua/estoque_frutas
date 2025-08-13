@@ -1,0 +1,19 @@
+{
+    "name": "amanda/estoquefrutas",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "Amanda\\estoquefrutas\\": "ESTOQUEFRUTAS/",
+            "Controller\\": "Controller/",
+            "Model\\": "Model/"
+        },
+        "files": [
+            "Config/Configuration.php"
+        ]
+    },
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">= 8.0",
+        "ext-mbstring": "*"
+    }
+}
